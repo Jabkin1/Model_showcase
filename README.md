@@ -1,6 +1,6 @@
-# Weed Detection in Cabbage Fields Using YOLOv10
+# Weed Detection in Cabbage Fields Using YOLOv8
 
-This repository contains a pretrained YOLOv10 model designed to detect various weed species in cabbage fields. The model leverages RGB and NIR data, enabling it to process both 3-channel (RGB) and 4-channel (RGB+NIR) images. It achieves state-of-the-art performance, with a mean Average Precision at IoU threshold 0.50 (mAP@50) of **94.9%** across 14 classes.
+This repository contains a pretrained YOLOv8 model designed to detect various weed species in cabbage fields. The model leverages RGB and NIR data, enabling it to process both 3-channel (RGB) and 4-channel (RGB+NIR) images. It achieves state-of-the-art performance, with a mean Average Precision at IoU threshold 0.50 (mAP@50) of **94.9%** across 14 classes.
 
 ## Model Features
 - **High Accuracy**: The model achieves a remarkable mAP@50 of 94.9%.
@@ -67,7 +67,7 @@ The model was evaluated on a diverse dataset of cabbage fields, achieving:
 ## Model Training Details
 - **Dataset**: Images collected from cabbage fields, combining RGB and NIR channels.
 - **Classes**: 12 weed species.
-- **Framework**: YOLOv10 using the `ultralytics` library.
+- **Framework**: YOLOv8 using the `ultralytics` library.
 
 ## Supported Weed and crop Classes with EPPO codes
 1. AMARE
@@ -91,12 +91,6 @@ The model was evaluated on a diverse dataset of cabbage fields, achieving:
 - **File Not Found Errors**: Check that the `best.pt` file is in the same directory as the script.
 - **Dependencies Issues**: Ensure all required libraries are installed correctly.
 
-## License
-This model and associated code are released under the [GNU License](LICENSE).
 
-## Acknowledgments
-Special thanks to the researchers and contributors who provided the dataset and trained the model.
 
-## Contact
-For questions or support, please contact [Your Name] at [your_email@example.com].
 
