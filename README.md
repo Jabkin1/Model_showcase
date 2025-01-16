@@ -26,8 +26,8 @@ pip install ultralytics numpy opencv-python Pillow
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/Jabkin1/Model_showcase.git
+cd Model_showcase
 ```
 
 ### 2. Prepare Your Environment
